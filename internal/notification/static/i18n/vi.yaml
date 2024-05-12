@@ -1,0 +1,61 @@
+InitCode:
+  Title: Khởi tạo Người dùng
+  PreHeader: Khởi tạo Người dùng
+  Subject: Khởi tạo Người dùng
+  Greeting: Xin chào {{.DisplayName}},
+  Text: Người dùng này đã được tạo. Sử dụng tên đăng nhập {{.PreferredLoginName}} để đăng nhập. Vui lòng nhấp vào nút dưới đây để hoàn tất quá trình khởi tạo. (Mã {{.Code}}) Nếu bạn không yêu cầu email này, vui lòng bỏ qua.
+  ButtonText: Hoàn tất khởi tạo
+PasswordReset:
+  Title: Đặt lại mật khẩu
+  PreHeader: Đặt lại mật khẩu
+  Subject: Đặt lại mật khẩu
+  Greeting: Xin chào {{.DisplayName}},
+  Text: Chúng tôi đã nhận được yêu cầu đặt lại mật khẩu. Vui lòng sử dụng nút dưới đây để đặt lại mật khẩu của bạn. (Mã {{.Code}}) Nếu bạn không yêu cầu email này, vui lòng bỏ qua.
+  ButtonText: Đặt lại mật khẩu
+VerifyEmail:
+  Title: Xác minh email
+  PreHeader: Xác minh email
+  Subject: Xác minh email
+  Greeting: Xin chào {{.DisplayName}},
+  Text: Một email mới đã được thêm. Vui lòng sử dụng nút dưới đây để xác minh email của bạn. (Mã {{.Code}}) Nếu bạn không thêm email mới, vui lòng bỏ qua email này.
+  ButtonText: Xác minh email
+VerifyPhone:
+  Title: Xác minh số điện thoại
+  PreHeader: Xác minh số điện thoại
+  Subject: Xác minh số điện thoại
+  Greeting: Xin chào {{.DisplayName}},
+  Text: Một số điện thoại mới đã được thêm. Vui lòng sử dụng mã sau để xác minh {{.Code}}
+  ButtonText: Xác minh số điện thoại
+VerifyEmailOTP:
+  Title: Xác minh Mật khẩu một lần
+  PreHeader: Xác minh Mật khẩu một lần
+  Subject: Xác minh Mật khẩu một lần
+  Greeting: Xin chào {{.DisplayName}},
+  Text: Vui lòng sử dụng mật khẩu một lần {{.OTP}} để xác thực trong vòng năm phút tiếp theo hoặc nhấp vào nút "Xác thực".
+  ButtonText: Xác thực
+VerifySMSOTP:
+  Text: >-
+    {{.OTP}} là mật khẩu một lần của bạn cho {{ .Domain }}. Sử dụng nó trong vòng {{.Expiry}} tiếp theo.
+    
+    @{{.Domain}} #{{.OTP}}
+DomainClaimed:
+  Title: Tên miền đã được yêu cầu
+  PreHeader: Thay đổi email / tên đăng nhập
+  Subject: Tên miền đã được yêu cầu
+  Greeting: Xin chào {{.DisplayName}},
+  Text: Tên miền {{.Domain}} đã được một tổ chức yêu cầu. Người dùng hiện tại của bạn {{.Username}} không phải là một phần của tổ chức này. Do đó, bạn sẽ phải thay đổi email của mình khi bạn đăng nhập. Chúng tôi đã tạo một tên đăng nhập tạm thời ({{.TempUsername}}) cho lần đăng nhập này.
+  ButtonText: Đăng nhập
+PasswordlessRegistration:
+  Title: Thêm Đăng nhập không cần mật khẩu
+  PreHeader: Thêm Đăng nhập không cần mật khẩu
+  Subject: Thêm Đăng nhập không cần mật khẩu
+  Greeting: Xin chào {{.DisplayName}},
+  Text: Chúng tôi đã nhận được yêu cầu để thêm một token cho đăng nhập không cần mật khẩu. Vui lòng sử dụng nút dưới đây để thêm token hoặc thiết bị của bạn cho đăng nhập không cần mật khẩu.
+  ButtonText: Thêm Đăng nhập không cần mật khẩu
+PasswordChange:
+  Title: Mật khẩu của người dùng đã thay đổi
+  PreHeader: Thay đổi mật khẩu
+  Subject: Mật khẩu của người dùng đã thay đổi
+  Greeting: Xin chào {{.DisplayName}},
+  Text: Mật khẩu của người dùng của bạn đã thay đổi. Nếu thay đổi này không được thực hiện bởi bạn, vui lòng được khuyến nghị ngay lập tức đặt lại mật khẩu của bạn.
+  ButtonText: Đăng nhập

@@ -1379,7 +1379,8 @@
         "mk": "Македонски",
         "cs": "Čeština",
         "ru": "Русский",
-        "nl": "Nederlands"
+        "nl": "Nederlands",
+        "vi": "Tiếng Việt"
       }
     },
     "SMTP": {
@@ -1605,7 +1606,8 @@
         "mk": "Македонски",
         "cs": "Čeština",
         "ru": "Русский",
-        "nl": "Nederlands"
+        "nl": "Nederlands",
+        "vi": "Tiếng Việt"
       },
       "KEYS": {
         "emailVerificationDoneText": "Verificação de email concluída",
@@ -2522,7 +2524,8 @@
     "mk": "Македонски",
     "cs": "Čeština",
     "ru": "Русский",
-    "nl": "Nederlands"
+    "nl": "Nederlands",
+    "vi": "Tiếng Việt"
   },
   "MEMBER": {
     "ADD": "Adicionar um Gerente",

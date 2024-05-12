@@ -248,6 +248,7 @@ RegistrationUser:
   Czech: Čeština
   Russian: Русский
   Dutch: Nederlands
+  Vietnamese: Tiếng Việt
   GenderLabel: Geschlecht
   Female: weiblich
   Male: männlich
@@ -287,6 +288,7 @@ ExternalRegistrationUserOverview:
   Czech: Čeština
   Russian: Русский
   Dutch: Nederlands
+  Vietnamese: Tiếng Việt
   TosAndPrivacyLabel: Allgemeine Geschäftsbedingungen und Datenschutz
   TosConfirm: Ich akzeptiere die
   TosLinkText: AGB
@@ -360,6 +362,7 @@ ExternalNotFound:
   Czech: Čeština
   Russian: Русский
   Dutch: Nederlands
+  Vietnamese: Tiếng Việt
 DeviceAuth:
   Title: Gerätezulassung
   UserCode:

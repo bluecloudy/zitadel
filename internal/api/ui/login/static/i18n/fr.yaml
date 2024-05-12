@@ -249,6 +249,7 @@ RegistrationUser:
   Czech: Čeština
   Russian: Русский
   Dutch: Nederlands
+  Vietnamese: Tiếng Việt
   GenderLabel: Genre
   Female: Femme
   Male: Homme
@@ -288,6 +289,7 @@ ExternalRegistrationUserOverview:
   Czech: Čeština
   Russian: Русский
   Dutch: Nederlands
+  Vietnamese: Tiếng Việt
   TosAndPrivacyLabel: Termes et conditions
   TosConfirm: J'accepte les
   TosLinkText: TOS
@@ -361,6 +363,7 @@ ExternalNotFound:
   Czech: Čeština
   Russian: Русский
   Dutch: Nederlands
+  Vietnamese: Tiếng Việt
 
 DeviceAuth:
   Title: Autorisation de l'appareil
